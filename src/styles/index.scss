@@ -1,0 +1,18 @@
+//  Variables + bases
+@import "./settings";
+
+//  -----------------------Components-----------------------
+
+// Header
+@import "../components/Header/Header.scss";
+
+// Nav
+@import "../components/Nav/Nav.scss";
+
+//  -----------------------Pages-----------------------
+
+// Home
+@import "../pages/Home/Home.scss";
+
+// About
+@import "../pages/About/About.scss";

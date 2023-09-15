@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,regular,500,600,700);
+
+// Variables
+$color1: #ff6060;
+$color2: #fff;
+$color3: #e3e3e3;
+
+$bg-color1: #fff;
+$bg-color2: #f6f6f6;
+$bg-color3: #000000;
+
+// Bases
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: $bg-color1;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+li {
+  list-style: none;
+}
