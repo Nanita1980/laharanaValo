@@ -1,0 +1,31 @@
+.banner {
+  .bannerHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 25px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("../Banner/home_cliff.png");
+    background-position: center;
+    background-size: cover;
+    height: 223px;
+
+    .bannerText {
+      color: white;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 500;
+    }
+  }
+
+  .bannerAbout {
+    position: relative;
+    border-radius: 25px;
+    height: 223px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("../Banner/about_mountains.png");
+    background-position: center;
+    background-size: cover;
+  }
+}
