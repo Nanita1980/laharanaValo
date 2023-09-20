@@ -1,7 +1,8 @@
 //  Variables + bases
 @import "./settings";
 
-//  -----------------------Components-----------------------
+
+/******* Components *******/
 
 // Header
 @import "../components/Header/Header.scss";
@@ -9,7 +10,12 @@
 // Nav
 @import "../components/Nav/Nav.scss";
 
-//  -----------------------Pages-----------------------
+// Footer
+@import "../components/Footer/Footer.scss";
+@import "../components/Footer/Footer.scss";
+
+
+/******* Pages *******/
 
 // Home
 @import "../pages/Home/Home.scss";

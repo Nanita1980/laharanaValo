@@ -1,0 +1,22 @@
+.containerFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  height: 209px;
+  background-color: $bg-color3;
+  color: $color2;
+
+  p {
+    margin-bottom: 30px;
+  }
+
+  svg {
+    width: 122px;
+    height: 40px;
+    fill: $color2;
+    margin-top: 35px;
+  }
+}

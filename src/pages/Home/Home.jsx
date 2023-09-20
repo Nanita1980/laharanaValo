@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
       <div className="containerHome">
         <Header />
       </div>
+      <Footer />
     </>
   );
 };
