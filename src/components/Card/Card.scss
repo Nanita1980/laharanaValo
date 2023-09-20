@@ -1,0 +1,37 @@
+.card {
+  position: relative;
+  width: 340px;
+  height: 340px;
+
+  .cardLink {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    );
+  }
+
+  .cardImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .cardTitle {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 10px;
+    color: $color2;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,11 @@
+.containerCards {
+  background-color: $bg-color2;
+  margin: 35px auto;
+  padding: 35px 0;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
