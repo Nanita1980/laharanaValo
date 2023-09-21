@@ -1,0 +1,41 @@
+.containerError {
+  max-width: 1240px;
+  margin: 0 auto;
+
+  .allErrorText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $color1;
+  }
+
+  .errorTitle {
+    font-size: 288px;
+    font-weight: 700;
+    line-height: 411px;
+    letter-spacing: 0em;
+    margin-top: 60px;
+  }
+
+  .errorText {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 51px;
+    letter-spacing: 0em;
+    margin-top: 70px;
+    margin-bottom: 100px;
+  }
+
+  .errorLinkBtn {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    border: none;
+    background: none;
+    text-decoration: underline;
+    color: $color1;
+    margin-bottom: 145px;
+    cursor: pointer;
+  }
+}
