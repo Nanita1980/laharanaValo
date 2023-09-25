@@ -1,0 +1,61 @@
+.containerCarousel {
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  .containerArrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1000;
+
+    .arrow {
+      width: 47px;
+      height: 80px;
+      cursor: pointer;
+    }
+
+    .arrowLeft {
+      position: absolute;
+      left: 30px;
+      top: 180px;
+      border: none;
+      background: none;
+      z-index: 500;
+    }
+
+    .arrowRight {
+      position: absolute;
+      right: 30px;
+      top: 180px;
+      border: none;
+      background: none;
+      z-index: 500;
+    }
+  }
+
+  .CurrentSlideImg {
+    width: 100%;
+    height: 415px;
+    border-radius: 25px;
+    object-fit: cover;
+  }
+
+  .containerCounter {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+
+    .counter {
+      color: $color2;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 26px;
+      letter-spacing: 0em;
+      z-index: 1000;
+    }
+  }
+}
+
