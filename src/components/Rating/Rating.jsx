@@ -18,10 +18,10 @@ const Rating = ({ rating }) => {
       );
     }
 
-    for (let j = 0; j < emptyGreyStars; j++) {
+    for (let n = 0; n < emptyGreyStars; n++) {
       stars.push(
         <i 
-          key={`emptyGreyStars_${j}`} 
+          key={`emptyGreyStars_${n}`} 
           className="fa-solid fa-star emptyGreyStars"
         ></i>
       );
