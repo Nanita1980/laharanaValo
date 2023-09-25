@@ -1,0 +1,15 @@
+.displayRating {
+  display: flex;
+
+  .fullRedStars {
+    transform: scale(1.2);
+    width: 26px;
+    color: $color1;
+  }
+
+  .emptyGreyStars {
+    transform: scale(1.2);
+    width: 26px;
+    color: $color3;
+  }
+}

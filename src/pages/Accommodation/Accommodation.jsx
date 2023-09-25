@@ -3,10 +3,12 @@ import Footer from "../../components/Footer/Footer";
 import db from "../../data/db.json";
 import Carousel from "../../components/Carousel/Carousel";
 import Tag from "../../components/Tag/Tag";
+import Rating from "../../components/Rating/Rating";
 
 const Accommodation = ({ id }) => {
   const housing = db.find((housing) => housing.id === id);
   const tags = housing.tags;
+  const rating = housing.rating;
 
   return (
     <>
@@ -39,6 +41,10 @@ const Accommodation = ({ id }) => {
                 <p className="hostName">{housing.host.name}</p>
               </div>
               
+              <div className="rating">
+                <Rating rating={rating} />
+              </div>
+
             </div>
           </div>
 
