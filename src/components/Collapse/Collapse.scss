@@ -1,0 +1,92 @@
+.containerCollapse {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+
+  .collapseBtn {
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: $color1;
+    border-radius: 10px;
+    width: 100%;
+    height: 52px;
+    padding: 0 15px;
+    color: $color2;
+    border: none;
+    z-index: 1000;
+    cursor: pointer;
+
+    .collapseTitle {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 34px;
+    }
+
+    .arrowRotateUp {
+      transition: all 200ms ease;
+      transform: rotate(-0deg);
+      width: 22px;
+      height: 13px;
+      margin-top: 8px;
+      cursor: pointer;
+    }
+    .arrowRotateDown {
+      transition: all 200ms ease;
+      transform: rotate(-180deg);
+      width: 22px;
+      height: 13px;
+      margin-top: 8px;
+      cursor: pointer;
+    }
+  }
+
+  .collapseContent {
+    width: 100%;
+    margin-top: -10px;
+    background-color: $bg-color2;
+    color: $color1;
+    border-radius: 5px 5px 10px 10px;
+    overflow: hidden;
+    padding: 35px 25px 25px 25px;
+    z-index: 500;
+    animation: OpenCollapseAnim ease-in-out 0.5s forwards;
+  }
+
+  @keyframes OpenCollapseAnim {
+    0% {
+      opacity: 0;
+      transform: translateY(-15px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .closeCollapseAnim {
+    animation: closeCollapseAnim ease-in-out 6s;
+  }
+
+  @keyframes closeCollapseAnim {
+    0% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    5% {
+      opacity: 0;
+      transform: translateY(-15px);
+    }
+    15% {
+      opacity: 0;
+      transform: translateY(-25px);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-15px);
+    }
+  }
+}

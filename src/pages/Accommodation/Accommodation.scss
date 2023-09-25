@@ -3,9 +3,9 @@
   max-width: 1240px;
   margin: 0 auto;
 
-  .containerHouse {
+  .containerHousing {
     color: $color1;
-    }
+
     .infos {
       display: flex;
       flex-direction: row;
@@ -16,7 +16,7 @@
         flex-direction: column;
         width: 80%;
 
-        .housingTitle {
+        .houseTitle {
           font-size: 36px;
           font-weight: 500;
         }
@@ -37,7 +37,7 @@
           margin-bottom: 25px;
         }
       }
-      
+
       .host {
         display: flex;
         flex-direction: column;
@@ -70,6 +70,21 @@
             text-align: right;
           }
         }
-      }  
-    }  
+
+        .rating {
+          margin-top: 45px;
+        }
+      }
+    }
+  }
+
+  .accommodationCollapse {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+    .displayCollapse {
+      width: 47%;
+    }
+  }
 }

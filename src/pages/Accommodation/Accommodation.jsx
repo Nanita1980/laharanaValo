@@ -4,6 +4,7 @@ import db from "../../data/db.json";
 import Carousel from "../../components/Carousel/Carousel";
 import Tag from "../../components/Tag/Tag";
 import Rating from "../../components/Rating/Rating";
+import Collapse from "../../components/Collapse/Collapse";
 
 const Accommodation = ({ id }) => {
   const housing = db.find((housing) => housing.id === id);
@@ -14,7 +15,7 @@ const Accommodation = ({ id }) => {
     <>
       <div className="accommodationPage">
       <Header />
-        <div className="containerHouse">
+        <div className="containerHousing">
           <Carousel pictures={housing.pictures} />
 
           <div className="infos">
@@ -46,9 +47,21 @@ const Accommodation = ({ id }) => {
               </div>
 
             </div>
+
+          </div>
+
+          <div className="accommodationCollapse">
+            <div className="displayCollapse">
+              <Collapse title="Description" desc={housing.description} />
+            </div>
+
+            <div className="displayCollapse">
+              <Collapse title="Équipements" desc={housing.equipments} />
+            </div>
           </div>
 
         </div>
+        
       </div>
       <Footer />
     </>
