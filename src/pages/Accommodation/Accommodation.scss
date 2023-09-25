@@ -37,5 +37,39 @@
           margin-bottom: 25px;
         }
       }
+      
+      .host {
+        display: flex;
+        flex-direction: column;
+        align-items: self-end;
+        justify-content: flex-start;
+        width: 20%;
+
+        .containerHost {
+          display: flex;
+          flex-direction: row-reverse;
+
+          .hostPicture {
+            width: 64px;
+            height: 64px;
+            border-radius: 50px;
+          }
+
+          .hostName {
+            display: flex;
+            align-content: center;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+            margin-right: 10px;
+            width: 55%;
+            word-wrap: break-word;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 26px;
+            letter-spacing: 0em;
+            text-align: right;
+          }
+        }
+      }  
     }  
 }

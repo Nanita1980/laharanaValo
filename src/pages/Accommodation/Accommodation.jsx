@@ -16,6 +16,7 @@ const Accommodation = ({ id }) => {
           <Carousel pictures={housing.pictures} />
 
           <div className="infos">
+
             <div className="location">
               <h2 className="housingTitle">{housing.title}</h2>
               <p className="place">{housing.location}</p>
@@ -25,6 +26,19 @@ const Accommodation = ({ id }) => {
                   <Tag key={index} tag={tag} />
                 ))}
               </div>
+            </div>
+
+            <div className="host">
+
+              <div className="containerHost">
+                <img
+                  className="hostPicture"
+                  src={housing.host.picture}
+                  alt={housing.host.name}
+                />
+                <p className="hostName">{housing.host.name}</p>
+              </div>
+              
             </div>
           </div>
 
