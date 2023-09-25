@@ -1,4 +1,4 @@
-.accomodationPage {
+.accommodationPage {
   min-height: calc(100vh - 259px);
   max-width: 1240px;
   margin: 0 auto;
@@ -6,4 +6,36 @@
   .containerHouse {
     color: $color1;
     }
+    .infos {
+      display: flex;
+      flex-direction: row;
+      margin-top: 25px;
+
+      .location {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+
+        .housingTitle {
+          font-size: 36px;
+          font-weight: 500;
+        }
+
+        .place {
+          margin-top: 10px;
+          margin-bottom: 20px;
+          width: 100%;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 26px;
+          letter-spacing: 0em;
+        }
+
+        .tags {
+          display: flex;
+          flex-direction: row;
+          margin-bottom: 25px;
+        }
+      }
+    }  
 }

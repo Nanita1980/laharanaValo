@@ -1,0 +1,15 @@
+.displayTag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3px 20px;
+  border-radius: 10px;
+  background-color: $color1;
+  margin-right: 10px;
+  color: $color2;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
