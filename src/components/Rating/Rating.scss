@@ -13,3 +13,21 @@
     color: $color3;
   }
 }
+
+/* Responsive */
+
+@media (max-width: 767px) {
+  .displayRating {
+    display: flex;
+
+    .fullRedStars {
+      transform: scale(1);
+      width: 24px;
+    }
+
+    .emptyGreyStars {
+      transform: scale(1);
+      width: 24px;
+    }
+  }
+}

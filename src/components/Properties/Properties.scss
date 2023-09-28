@@ -9,3 +9,15 @@
   flex-wrap: wrap;
   gap: 50px;
 }
+
+/* Responsive */
+
+@media (max-width: 767px) {
+  .containerCards {
+    background-color: $bg-color1;
+    margin: 10px auto;
+    padding: 0;
+    width: 90%;
+    gap: 10px;
+  }
+}

@@ -39,3 +39,68 @@
     cursor: pointer;
   }
 }
+
+/* Responsive tablette */
+
+@media (max-width: 1023px) {
+  .containerError {
+    min-height: calc(100vh - 228px);
+    margin: 0 10px;
+
+    .allErrorText {
+      width: 100%;
+    margin: 0 auto;
+
+    }
+
+    .errorTitle {
+      font-size: 96px;
+      line-height: 137px;
+    }
+
+    .errorText {
+      display: flex;
+      font-size: 18px;
+      line-height: 26px;
+      text-align: center;
+      margin-top: 70px;
+      width: 219px;
+      height: 52px;
+    }
+
+    .errorLinkBtn {
+      font-size: 14px;
+      margin-bottom: 0px;
+    }
+  }
+}
+
+/* Responsive mobile */
+
+@media (max-width: 767px) {
+  .containerError {
+
+    .allErrorText {
+      width: 100%;
+    }
+
+    .errorTitle {
+      font-size: 96px;
+      line-height: 137px;
+    }
+
+    .errorText {
+      display: flex;
+      font-size: 18px;
+      line-height: 26px;
+      text-align: center;
+      margin-top: 100px;
+      width: 219px;
+      height: 52px;
+    }
+
+    .errorLinkBtn {
+      font-size: 14px;
+    }
+  }
+}

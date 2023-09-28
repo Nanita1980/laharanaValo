@@ -9,3 +9,30 @@
       fill: $color1;
     }
 }
+
+/* Responsive tablette */
+
+@media (max-width: 1023px) {
+  .containerHeader {
+      margin: 20px 10px 10px 10px;
+
+    svg {
+      width: 145px;
+      height: 46px;
+    }
+  }
+}
+
+/* Responsive mobile */
+
+@media (max-width: 767px) {
+  .containerHeader {
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    svg {
+      width: 145px;
+      height: 46px;
+    }
+  }
+}

@@ -90,3 +90,83 @@
     }
   }
 }
+
+/* Responsive tablette */
+
+@media (max-width: 1023px) {
+  .containerCollapse {
+    .collapseBtn {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 5px;
+      width: 100%;
+      height: 38px;
+      padding: 0 15px;
+
+      .collapseTitle {
+        font-size: 16px;
+        margin-top: 3px;
+      }
+
+      .arrowRotateUp {
+        margin-bottom: 3px;
+        width: 18px;
+        height: 10px;
+      }
+      .arrowRotateDown {
+        margin-bottom: 3px;
+        width: 18px;
+        height: 10px;
+      }
+
+      .containerDesc {
+        p {
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 17px;
+        }
+      }
+    }
+  }
+}
+
+/* Responsive mobile */
+
+@media (max-width: 767px) {
+  .containerCollapse {
+    .collapseBtn {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 5px;
+      width: 100%;
+      height: 38px;
+      padding: 0 15px;
+
+      .collapseTitle {
+        font-size: 14px;
+        margin-top: 3px;
+      }
+
+      .arrowRotateUp {
+        margin-bottom: 3px;
+        width: 18px;
+        height: 10px;
+      }
+      .arrowRotateDown {
+        margin-bottom: 3px;
+        width: 18px;
+        height: 10px;
+      }
+
+      .containerDesc {
+        p {
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 17px;
+        }
+      }
+    }
+  }
+}

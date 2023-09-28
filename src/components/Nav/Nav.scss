@@ -22,3 +22,33 @@
     color: $color1;
   }
 }
+
+/* Responsive tablette */
+
+@media (max-width: 1023px) {
+  .containerNav {
+    .nav {
+      width: 155px;
+    }
+
+    .listLink {
+      font-size: 13px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+/* Responsive mobile */
+
+@media (max-width: 767px) {
+  .containerNav {
+    .nav {
+      width: 145px;
+    }
+
+    .listLink {
+      font-size: 13px;
+      text-transform: uppercase;
+    }
+  }
+}

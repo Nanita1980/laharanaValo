@@ -16,7 +16,7 @@
         flex-direction: column;
         width: 80%;
 
-        .houseTitle {
+        .housingTitle {
           font-size: 36px;
           font-weight: 500;
         }
@@ -85,6 +85,172 @@
 
     .displayCollapse {
       width: 47%;
+    }
+  }
+}
+
+/* Responsive tablette */
+
+@media (max-width: 1023px) {
+  .accommodationPage {
+    margin: 0 10px;
+
+    .containerHousing {
+      margin: 0 10px;
+
+      .infos {
+        display: flex;
+        flex-direction: column;
+
+        .location {
+          width: 100%;
+
+          .housingTitle {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 26px;
+            letter-spacing: 0em;
+            margin-top: -10px;
+          }
+
+          .place {
+            margin-bottom: 0;
+            font-size: 14px;
+            line-height: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: 0em;
+          }
+
+          .tags {
+            flex-wrap: wrap;
+            margin: 10px 0 15px 0;
+          }
+        }
+
+        .host {
+          display: flex;
+          flex-direction: row-reverse;
+          justify-content: space-between;
+          align-content: center;
+          width: 100%;
+          margin-bottom: -10px;
+
+          .containerHost {
+            .hostPicture {
+              width: 52px;
+              height: 52px;
+            }
+            .hostName {
+              width: 40%;
+              font-size: 16px;
+              line-height: 17px;
+              top: 5px;
+              right: 60px;
+            }
+          }
+
+          .rating {
+            margin-top: 10px;
+          }
+        }
+      }
+
+      .accommodationCollapse {
+        flex-direction: column;
+        margin-top: 30px;
+
+        .displayCollapse {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+/* Responsive mobile */
+
+@media (max-width: 767px) {
+  .accommodationPage {
+    margin: 0 10px;
+
+    .containerHousing {
+      margin: 0 10px;
+
+      img {
+        height: 255px;
+      }
+
+      .infos {
+        display: flex;
+        flex-direction: column;
+
+        .location {
+          width: 100%;
+
+          .housingTitle {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 26px;
+            letter-spacing: 0em;
+            margin-top: -10px;
+          }
+
+          .place {
+            margin-bottom: 0;
+            font-size: 14px;
+            line-height: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: 0em;
+          }
+
+          .tags {
+            flex-wrap: wrap;
+            gap: 5px 0;
+            margin: 10px 0 15px 0;
+          }
+        }
+
+        .host {
+          display: flex;
+          flex-direction: row-reverse;
+          justify-content: space-between;
+          align-content: center;
+          width: 100%;
+          margin-bottom: -10px;
+
+          .containerHost {
+            .hostName {
+              width: 20%;
+              font-size: 12px;
+              line-height: 17px;
+              top: 5px;
+              right: 60px;
+            }
+
+            .hostPicture {
+              width: 32px;
+              height: 32px;
+            }
+          }
+
+          .rating {
+            margin-top: 10px;
+          }
+        }
+      }
+
+      .accommodationCollapse {
+        flex-direction: column;
+        margin-top: 30px;
+
+        .displayCollapse {
+          width: 100%;
+        }
+      }
     }
   }
 }

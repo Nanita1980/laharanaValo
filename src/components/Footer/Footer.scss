@@ -20,3 +20,31 @@
     margin-top: 35px;
   }
 }
+
+/* Responsive tablette */
+
+@media (max-width: 1023px) {
+  .containerFooter {
+    margin: 0 auto;
+  }
+}
+
+/* Responsive mobile */
+
+@media (max-width: 767px) {
+  .containerFooter {
+    width: 100%;
+    margin: 0;
+    svg {
+      margin-top: 50px;
+    }
+
+    p {
+      margin-bottom: 35px;
+      width: 30%;
+      text-align: center;
+      font-size: 12px;
+      line-height: 17px;
+    }
+  }
+}

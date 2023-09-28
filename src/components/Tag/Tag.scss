@@ -13,3 +13,21 @@
   line-height: 20px;
   letter-spacing: 0em;
 }
+
+/* Responsive */
+
+@media (max-width: 767px) {
+  .displayTag {
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3px 16px;
+    border-radius: 5px;
+    margin-right: 10px;
+    letter-spacing: 0em;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 142.6%;
+  }
+}

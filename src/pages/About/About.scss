@@ -12,3 +12,28 @@
     margin: 40px auto 0 auto;
   }
 }
+
+/* Responsive tablette */
+
+@media (max-width: 1023px) {
+  .containerAbout {
+    min-height: calc(100vh - 300px);
+    margin: 0 10px;
+
+    .displayABout {
+      width: 90%;
+    }
+  }
+}
+
+/* Responsive mobile */
+
+@media (max-width: 767px) {
+  .containerAbout {
+    min-height: calc(110vh - 320px);
+
+    .displayABout {
+      width: 90%;
+    }
+  }
+}

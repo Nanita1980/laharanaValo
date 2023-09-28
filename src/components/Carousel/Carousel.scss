@@ -59,3 +59,43 @@
   }
 }
 
+/* Responsive tablette */
+
+@media (max-width: 1023px) {
+  .containerCarousel {
+    .CurrentSlideImg {
+      border-radius: 10px;
+    }
+  }
+}
+
+/* Responsive mobile */
+
+@media (max-width: 767px) {
+  .containerCarousel {
+    .containerArrow {
+      .arrow {
+        width: 24px;
+        height: 24px;
+      }
+
+      .arrowLeft {
+        top: 116px;
+        left: 15px;
+      }
+
+      .arrowRight {
+        top: 116px;
+        right: 15px;
+      }
+    }
+    .CurrentSlideImg {
+      height: 225px;
+      border-radius: 10px;
+    }
+
+    .containerCounter {
+      display: none;
+    }
+  }
+}
