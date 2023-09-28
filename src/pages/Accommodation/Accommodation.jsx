@@ -11,9 +11,6 @@ import { useParams } from "react-router-dom";
 
 const Accommodation = () => {
   const { id } = useParams();
-//   const [properties] = useState(db);
-// console.log([properties]);
-  // const housing = properties.find((housing) => housing.id === id);
   const housing = db.find((housing) => housing.id === id);
   const tags = housing?.tags;
   const rating = housing?.rating;
